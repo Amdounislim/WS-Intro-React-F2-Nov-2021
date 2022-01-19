@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Main() {
+export function Main() {
     let name = "Main"
     return (
         <div>
@@ -8,3 +8,13 @@ export default function Main() {
         </div>
     )
 }
+
+
+export function Intro (){
+    return (
+        <div>
+            <h3>Intro</h3>
+        </div>
+    )
+}
+
